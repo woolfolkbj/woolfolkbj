@@ -82,6 +82,7 @@ topImage {
   }
 
 
+
 h2 {
 	color: #252c38;
 	font-weight: 100;
@@ -613,16 +614,88 @@ input[type='checkbox'] {
 	border: none;
 	font-size: 1.25rem;
 }
-
+/*
  .carousel-cell {
-  height: auto;
+  height: 300px;
   margin-right: 10px;
+	 display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.carousel.is-fullscreen .carousel-cell { 
+	height: 100%;
+  	margin-right: 10px;
+	 display: flex;
+  	align-items: center;
+/*
+.carousel-cell img{
+	display: block;
+	max-height: 100%;
+	/*
+  height: 300px;
+	width: auto;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;*/
+/*}
+/*
+.carousel.is-fullscreen .carousel-image {
+  height: 100%;
+	/*
+	width: auto;
+	margin-left: 0%;
+	margin-right: 0%;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}*/
+/*
+.carousel-cell {
+	  height: 200px;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-image {
+  display: block;
+  height: 200px;
+ 
+  margin-right: 10px;
+
+  top: 50%;
+  transform: translateY(-50%)
+}*/
+
+.carousel-cell {
+  height: 300px;
+	margin-right: 10px;
 }
 
 .carousel-cell img{
   height: 300px;
 	width: auto;
 }
+
+/* fullscreen */
+.carousel.is-fullscreen{
+  margin-top: 80px;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+  height: 100%;
+	width: auto;
+}
+
+.carousel.is-fullscreen .carousel-cell img{
+  height: 100%;
+	width: auto;
+}
+
+
+
 
 
 /*****************/
@@ -927,6 +1000,11 @@ input[type='checkbox'] {
 .slider-1 {
 	/*padding-top: 8.25rem;*/
 	padding-bottom: 8.5rem;
+}
+.slider-slide {
+	/*padding-top: 8.25rem;*/
+	padding-bottom: 8.5rem;
+	height: auto;
 }
 
 .slider-1 .section-title {
